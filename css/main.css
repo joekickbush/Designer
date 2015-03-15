@@ -1,0 +1,138 @@
+/*****************************************************************/
+/*
+/* GLOBAL
+/*
+/*****************************************************************/
+
+
+body {
+	background-color: #eceef1;	
+
+}
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+#wrapper {
+	max-width: 650px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+h1 {
+	font-size: .9em;
+	font-weight: bold;
+	line-height: normal;
+	margin: 0;
+}
+
+h1 span {
+	color: #a6aebb;
+}
+
+h2 {
+	font-size: 10px;
+	font-weight: normal;
+	line-height: normal;
+	color: #a6aebb;
+}
+
+/*****************************************************************/
+/*
+/* NAV
+/*
+/*****************************************************************/
+
+
+header {
+  margin: 0;
+  padding: 0 0 0 0;
+  width: 100%;
+}
+
+nav#nav-top {
+	text-align: center;	
+	padding-top: 0px;
+	padding-bottom: 1px;
+	background-color: #1c52a2;
+	height: 40px;
+	line-height: 40px;
+}
+
+div#left {
+	padding: 100px 0 0 0;
+	float: left;
+	text-align: left;
+}
+
+nav ul {
+	text-decoration: none;
+	list-style: none;
+	margin: 0;
+}
+
+nav#nav-top li {
+	text-decoration: none;
+	display: inline-block;
+	margin: 0 10px 0 0;
+	padding: 0 70px 0 0;
+}
+
+nav#nav-top .selected  {
+	color: #fff;
+	font-weight: bold;
+}
+
+
+/*****************************************************************/
+/*
+/* BODY
+/*
+/*****************************************************************/
+
+div#top-stories {
+	text-align: center;
+	  max-width: 700px;
+	  background: white;
+}
+
+div#top-stories ul {
+	margin: 0;
+	padding: 0;
+}
+
+div#top-stories ul li {
+	list-style: none;
+	padding: 20px;
+	border-bottom: solid;
+	border-width: 1.2px;
+	border-color: #dbdfe5;
+	width: 85%;
+	margin: 0 auto;
+
+}
+
+div#top-stories ul li:first-child {
+	border-top: 1.2px solid #dbdfe5;
+}
+
+div#top-stories li h1, h2 {
+	text-align: left;
+}
+
+div#motd {
+	padding: 60px;
+	text-align: center;
+	background: white;
+
+}
+
+
+
+/*helpers*/
+
+
+
+
+
